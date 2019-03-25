@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 17px;
+    width: 1000px;}
+img{
+    max-width: 100%;
+    display:block;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    }
+
+header{
+    padding: 25px 0px;
+    background: #f7f9ff;
+}
+.container{
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo image{}
+nav{
+    margin-top: 10px;
+    width: 80%;
+    float: left;
+}
+nav ul{
+    padding: 0PX;
+    margin: 0px;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2d3950;
+    padding-left: 30px;
+}
+
+.banner{background: url(../images/background-one.png);background-repeat: no-repeat;background-size: cover;}
+.banner-content{
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
+}
+.banner-content h1{
+    font-size: 6em;
+    margin: 10px;
+}
+.banner-content hr{
+    max-width: 600px;
+    border-color: #15a4fa;
+}
+.banner-content p{}
+.banner-content a{
+    text-decoration: none;
+    color: white;
+    border: 1.25px #15a4fa solid;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.arrow{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.arrow a{color: white;}
+
+.aboutus{}
+.about-content{
+    background: #f7f9ff;
+    text-align: center;
+    padding: 40px 0px;
+}
+.about-content h1{
+    font-size: 2.5em;
+    margin: 0px;
+    color: #2d3950;
+}
+.about-content p{
+    padding: 0px 100px;
+    color: #4f6375;
+}
+
+
+.feature{padding: 40px 0px;width: 33.333333%;float: left;}
+.feature img{
+    margin: 0 auto;
+}
+.feature h1{
+    color: #2d3950;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px;
+}
+.feature p{color: #4f6375;text-align: center;margin: 0px;}
+
+
+.work-section{background: #f7f9ff;float: left;padding-bottom: 50px;}
+.title{
+}
+.title h1{
+    font-size: 2em;
+    color: #2d3950;
+    margin: 0px;
+}
+.title p{
+    color: #4f6375;
+    margin: 5px;
+}
+
+
+.work{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+.work img{}
+
+
+.contact{
+    background: url(../images/background-two.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    padding: 50px 0px;
+}
+.container .title{text-align: center;padding-bottom: 20px;padding-top: 50px;}
+
+.container .title h2{
+    font-size: 2.5em;
+    margin: 0px;
+    color: white;
+}
+.container .title span{
+    color: white;
+    font-size: 15px;
+}
+
+form{width: 50%;margin: 0 auto;}
+form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: solid #ffffff 1px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    }
+form input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: solid #ffffff 1px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    }
+form textarea{
+    width: 100%;
+    padding: 10px;
+    border: solid #ffffff 1px;
+    margin-bottom: 10px;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+form ul{text-decoration: none;padding: 0;margin: 0;}
+form ul li{
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+form ul li span{
+    color: white;
+}
+
+form ul li input[type="checkbox"]{margin-top: 10px;}
+form ul li input[type="submit"]{
+    text-decoration: none;
+    color: white;
+    border: 1.25px #15a4fa solid;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    float: right;
+    background: transparent;
+}
+
+
+footer{
+    float: left;
+    padding: 30px 0px;
+}
+.copyright{
+    float: left;
+}
+.copyright p{
+    color: #2d3950;
+}
+.socialmedia{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.socialmedia ul{
+    padding: 0;
+    margin: 0;
+}
+.socialmedia ul li{
+    list-style: none;
+    padding: 15px;
+    background: #15a4fa;
+    margin-left: 10px;
+    float: left;
+}
+.socialmedia ul li a{
+    color: white;
+}
+.socialmedia ul li:hover{
+    color: #15a4fa;
+    background: #000000;
+}
